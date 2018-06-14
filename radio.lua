@@ -96,9 +96,9 @@ end
 function EnableRadio()
   mainIni.settings.enable = not mainIni.settings.enable
   if mainIni.settings.enable then
-    sampAddChatMessage("["..chatTag.."]: Отыгровка включена.", - 1)
+    sampAddChatMessage("["..chatTag.."]: РћС‚С‹РіСЂРѕРІРєР° РІРєР»СЋС‡РµРЅР°.", - 1)
   else
-    sampAddChatMessage("["..chatTag.."]: Отыгровка выключена.", - 1)
+    sampAddChatMessage("["..chatTag.."]: РћС‚С‹РіСЂРѕРІРєР° РІС‹РєР»СЋС‡РµРЅР°.", - 1)
   end
 end
 
@@ -133,8 +133,8 @@ function resetIniSettings()
       r3Tag = "[TagThree]:",
       r4Tag = "[TagFour]:",
 
-      incoming = "/seedo Из радиостанции доносятся звуки переговоров",
-      outgoing = "/seeme Нажал кнопку на тангенте рации и передал сообщение",
+      incoming = "/seedo РР· СЂР°РґРёРѕСЃС‚Р°РЅС†РёРё РґРѕРЅРѕСЃСЏС‚СЃСЏ Р·РІСѓРєРё РїРµСЂРµРіРѕРІРѕСЂРѕРІ",
+      outgoing = "/seeme РќР°Р¶Р°Р» РєРЅРѕРїРєСѓ РЅР° С‚Р°РЅРіРµРЅС‚Рµ СЂР°С†РёРё Рё РїРµСЂРµРґР°Р» СЃРѕРѕР±С‰РµРЅРёРµ",
     },
   })
   inicfg.save(mainIni, "radio")
